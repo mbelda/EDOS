@@ -1,5 +1,5 @@
 # EDOS
-Prácticas de la asignatura Ecuaciones diferenciales ordinarias
+Prácticas de la asignatura Ecuaciones diferenciales ordinarias \n
   Práctica 1: Comprobar que las expresiones dadas son solución de las edos correspondientes.
   Práctica 2: Representar las isoclinas de algunos PVIs.
   Práctica 3: Método de Euler para resolver edos.
