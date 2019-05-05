@@ -7,3 +7,7 @@ Prácticas de la asignatura Ecuaciones diferenciales ordinarias
 - Práctica 5: Método de Euler mejorado.  
 - Práctica 6: Método de Runge-Kutta.
 - Práctica 7: Uso de dsolve para resolver EDOS.
+- Práctica 8: Uso de ode45 para resolver un sistema de EDOS.
+- Práctica 9: Uso de dsolve y ode45 para resolver EDOS y representar su diagrama de fases.
+- Práctica 10: Uso de dsolve para resolver un sistema de EDOS de segundo orden.
+- Trabajo: Uso de ode45 para resolver el modelo de Lotka-Volterra y representar sus soluciones y su diagrama de fases.
