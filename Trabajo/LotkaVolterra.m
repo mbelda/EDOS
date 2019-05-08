@@ -11,9 +11,14 @@
 syms x(t) y(t);
 a = 1.8; b = 0.9; c = 0.81; d = 0.54;
 
-cond = [[10,2]; [5,2]; [2,1.5]]; cond2 = [2,1.5];
 f = @(t,x) [a*x(1) - b*(x(1)*x(2)); -c*x(2) + d*(x(1)*x(2))];
-for i = 1:3
+%cond 1: pocos depredadores y muchas presas
+%cond 2: pocas presas y muchos depredadores
+%cond 3: equilibrio
+%cond 4: solo presas
+%cond 5: solo depredadores
+cond = [[10,2]; [5,10]; [2,1.5]; [5,0]; [0,5]];
+for i = 1:size(cond)
     [t, x] = ode45(f, [0 25], cond(i, :));
     figure(i);
     subplot(2,1,1);
