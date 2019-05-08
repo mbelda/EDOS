@@ -1,0 +1,12 @@
+clear all;
+syms x(t) y(t);
+a = -5:0.1:5;
+figure(1);
+hold on;
+grid on;
+eqn = [diff(x,t) == -x - 3*y; diff(y,t) == x];
+cond = [x(0) == 2, y(0) == 2];
+sol = dsolve(eqn, cond);
+solx(t) = sol.x;
+soly(t) = sol.y;
+plot(solx(a), soly(a),'blue');
